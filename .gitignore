@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.dylib
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+*.log
+
+# Django specific
+*.db
+*.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.bak
+*.swp
+media/
+static/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
