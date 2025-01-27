@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*h)-im*eht9&hxo_v8(@z+$q+k0cgg9n%wy2o+)l1*$p&sw+2a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['purabmodi.pythonanywhere.com']
 
 
 # Application definition
@@ -88,8 +88,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'purabmodi$default',
+        'USER': 'purabmodi',
+        'PASSWORD': 'Ilovebiryani12@',
+        'HOST': 'purabmodi.mysql.pythonanywhere-services.com',
     }
 }
 
