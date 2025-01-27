@@ -25,7 +25,6 @@ var/
 __pycache__/
 *.bak
 *.swp
-media/
 static/
 
 # Virtual environment
